@@ -20,6 +20,9 @@ public class Cars {
 	private int bookedtilldate;
 	private String photo;
 	private double price;
+	@Column(nullable=true, columnDefinition="int default 0")
+	private int bookedbyid;
+	
 	
 
 	public String getSource() {
@@ -91,5 +94,12 @@ public class Cars {
 
 	public void setPrice(double price) {
 		this.price = price;
+	}
+	public int getBookedbyid() {
+		return bookedbyid;
+	}
+
+	public void setBookedbyid(int bookedbyid) {
+		this.bookedbyid = bookedbyid;
 	}
 }

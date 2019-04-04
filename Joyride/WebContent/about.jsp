@@ -1,6 +1,5 @@
 	<!DOCTYPE html>
 	<html lang="zxx" class="no-js">
-	<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="shortcut icon" href="img/elements/fav.png">
@@ -8,10 +7,9 @@
 		<meta name="description" content="">
 		<meta name="keywords" content="">
 		<meta charset="UTF-8">
-		<title>Joyride Car Rentals</title>
+		<title>Car Rentals</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
-			
 			<link rel="stylesheet" href="css/linearicons.css">
 			<link rel="stylesheet" href="css/owl.carousel.css">
 			<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -26,13 +24,14 @@
 			    <div class="container">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.jsp"><h3 class="text-white text-uppercase">JOYRIDE</h3></a>
+				        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 				          <li class="menu-active"><a href="index.jsp">Home</a></li>
 				          <li><a href="about.jsp">About</a></li>
 				          <li><a href="contact.jsp">Contact</a></li>	
+				         		          
 				        </ul>
 				      </nav>		    		
 			    	</div>
@@ -45,14 +44,21 @@
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								Cars			
+								About Us				
 							</h1>	
-							<p class="text-white link-nav"><a href="index.jsp">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="cars.html"> Cars</a></p>
+							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.html"> About Us</a></p>
+						</div>											
+					</div>
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content col-lg-12">
+							<h1 class="text-white">
+								Developed by Goutam Kalburgi				
+							</h1>	
+							
 						</div>											
 					</div>
 				</div>
 			</section>
-
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 			<script src="js/vendor/bootstrap.min.js"></script>			

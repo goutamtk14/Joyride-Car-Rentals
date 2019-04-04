@@ -1,12 +1,21 @@
 package com.joy.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
 public class User {
+	@Id
+	@GeneratedValue
+	private int id;
 	private String name;
+	private long mobile;
 	private String email;
 	private String password;
-	private String dob;
+	private int dob;
 	private long dlnumber;
-	private String dlvalidity;
+	private int dlvalidity;
 	public String getName() {
 		return name;
 	}
@@ -25,24 +34,33 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public String getDob() {
-		return dob;
-	}
-	public void setDob(String dob) {
-		this.dob = dob;
-	}
+
 	public long getDlnumber() {
 		return dlnumber;
 	}
 	public void setDlnumber(long dlnumber) {
 		this.dlnumber = dlnumber;
 	}
-	public String getDlvalidity() {
+	public int getDob() {
+		return dob;
+	}
+	public void setDob(int dob) {
+		this.dob = dob;
+	}
+	public int getDlvalidity() {
 		return dlvalidity;
 	}
-	public void setDlvalidity(String dlvalidity) {
+	public void setDlvalidity(int dlvalidity) {
 		this.dlvalidity = dlvalidity;
 	}
-	
+	public long getMobile() {
+		return mobile;
+	}
+	public void setMobile(long mobile) {
+		this.mobile = mobile;
+	}
+	public int getId() {
+		return id;
+	}
 
 }
