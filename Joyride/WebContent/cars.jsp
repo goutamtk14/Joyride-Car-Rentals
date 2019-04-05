@@ -52,6 +52,47 @@
 					</div>
 				</div>
 			</section>
+			<section class="model-area section-gap" id="cars">
+				<div class="container">
+					<div class="row d-flex justify-content-center pb-40">
+						<div class="col-md-8 pb-40 header-text">
+							<h1 class="text-center pb-10">Choose your Desired Car Model</h1>
+							<p class="text-center">
+								Who are in extremely love with eco friendly system.
+							</p>
+						</div>
+					</div>				
+					<div class="active-model-carusel">
+					<c:forEach items="${car }" var="cab">
+					<form action="login" method="POST">
+						<div class="row align-items-center single-model item">
+							<div class="col-lg-6 model-left">
+								<div class="title justify-content-between d-flex">
+									<h4 class="mt-20">${cab.model }</h4>
+									<h2>${cab.price }<span>/day</span></h2>
+								</div>
+								<p>
+									Book with Joyride.
+								</p>
+								<p>
+									Capacity         : ${cab.seater } Person <br>
+									Air Condition    : Dual Zone <br>
+									Transmission     : Manual
+								</p>
+								<input type="hidden" name="carselected" value="${cab.source },${cab.registrationnumber },${cab.model },${cab.seater },${cab.price },${cab.photo }">
+								<input type="submit" class="text-uppercase primary-btn" value="Book this Car Now">
+							</div>
+							<div class="col-lg-6 model-right">
+								<img class="img-fluid" src="${cab.photo }" alt="${cab.model }">
+							</div>
+						</div>
+						</form>
+					</c:forEach>
+
+
+					</div>
+				</div>	
+			</section>
 
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
