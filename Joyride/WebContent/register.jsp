@@ -66,8 +66,8 @@
 						   
 							    	<input class="form-control txt-field" type="text" name="name" placeholder="Name">
 							    	<div class="input-group dates-wrap">
-									<input id="datepicker2" class="dates form-control"
-										id="exampleAmount2" name="dob" placeholder="Date of Birth"
+									<input id="datepicker" class="dates form-control"
+										id="exampleAmount" name="dob" placeholder="Date of Birth"
 										type="text">
 									<div class="input-group-prepend">
 										<span class="input-group-text"><span
@@ -77,7 +77,7 @@
 								    <input class="form-control txt-field" type="number" name="dlnumber" placeholder="Driving Liscense Number">
 								    <div class="input-group dates-wrap">
 									<input id="datepicker2" class="dates form-control"
-										id="exampleAmount2" name="dlvalidity" placeholder="Driving License Validity"
+										id="exampleAmount" name="dlvalidity" placeholder="Driving License Validity"
 										type="text">
 									<div class="input-group-prepend">
 										<span class="input-group-text"><span

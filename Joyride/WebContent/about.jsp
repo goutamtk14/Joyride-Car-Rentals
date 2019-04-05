@@ -52,7 +52,7 @@
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								Developed by Goutam Kalburgi				
+								developed by shifali and goutam;)				
 							</h1>	
 							
 						</div>											
